@@ -78,7 +78,11 @@ h1{
 }
 .second-area{
     display: flex;
-    
+    background-image:url(bg.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin-bottom: 100px;
 }
 .middle-area1{
     width:40%;
@@ -95,9 +99,10 @@ h1{
    
 }
 .second-image{
-    width:40%;
+    width:50%;
     margin-left:30px;
     margin-top: 30px;
+    padding-left: 20px;
 }
 .contact-me{
     background-image: linear-gradient(#FC8F49,#FE5232);
@@ -112,5 +117,95 @@ h1{
     
 }
 .middle-content p{
-    padding-bottom:25px;
+    padding-bottom:45px;
+}
+.third-area{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 150px;
+   
+  
+}
+
+.reciepe-area h3{
+    align-content: center;
+    align-text:center;
+    align-items: center;
+    padding-left:40%;
+    padding-right:40%;
+}
+.reciepe-area p{
+    align-content:center;
+    padding-left:30%;
+    padding-right:30%;
+}
+.image-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left:60px;
+    padding-bottom: 50px;
+}
+.image-section div img{
+    width:60%;
+    padding-left: 55px;
+}
+.fooda{
+    width:25%;
+    box-shadow:5px 5px 5px 5px gray;
+    border:10px solid white;
+    border-radius:15px;
+    transition: all 0.3 ease;
+    
+}
+.foodb{
+    width:25%;
+    box-shadow:5px 5px 5px 5px gray;
+    border:10px solid white;
+    border-radius:15px;
+}
+.foodc{
+    width:25%;
+    box-shadow:5px 5px 5px 5px gray;
+    border:10px solid white;
+    border-radius:15px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    width:80%;
+    box-shadow:5px 5px 25px 5px gray;
+    border-radius: 10px;
+    margin-left:10%;
+    margin-left:10%;
+    margin-bottom:100px;
+    margin-top: 100px;
+}
+.likes-social{
+    font-weight: bold;
+    margin-left: 45px;
+    font-size: 30px;
+    
+}
+
+.footer-area{
+    background:black;
+    
+     margin-bottom:0;
+     color: white;
+     height:150px;
+    
+}
+.Fresh{
+    color: #FC8F49;
+}
+footer h2{
+   margin-left: 45%;
+   font-family: sans-serif;
+}
+footer p{
+    margin-left: 38%;
+    font-family: sans-serif;
 }
